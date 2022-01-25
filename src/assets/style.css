@@ -1,0 +1,176 @@
+body{
+  background-image: url("orange-texture.jpg");
+  /* src/assets/orange-texture.jpg */ 
+  font-family: 'Courier New', monospace;
+  color: #2b259c;
+  
+}
+
+.wrapper{
+  display: flex;  
+}
+
+.Appcontainer{
+  display: flex;
+  justify-content: center; 
+  padding-top: 20px; ;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width:80%; 
+  margin: auto;
+  border-radius: 50px; 
+}
+.top-child{
+  width:100%; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bottom-child{
+  width:100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+.annualCompoundCalculator{  
+  width: 100%;
+  justify-content: center;
+  display: flex; 
+  border-radius: 20px; 
+  margin:10px;
+  text-align: center; 
+  font-weight: bolder;
+  /* background-color: brown; */
+  /* flex-direction: column; */
+}
+.text-center{
+  font-family: "Monsterrat", Sans-serif;
+  font-weight: bolder;
+  color: #d30000;
+}
+.left-child{ 
+  margin:20px;
+  flex:60;
+  /* background-color: #af4ca2; */
+}
+
+.right-child{  
+  flex:40;
+  padding-top: 28px;
+  /* background-color: #4c7faf; */
+}
+
+.SummaryContainer{
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+  text-align: center;
+}
+
+.submitButton {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  margin:20px;
+}
+
+.formContainer{
+  text-align: left;
+  display: flex;  
+  align-items: left;
+  flex-direction: column;
+  /* background-color: chartreuse;  */
+}
+.inputFlex{
+  display: flex;
+}
+.inputBox{ 
+  text-align: left;
+  flex:50;
+  margin:5px;
+  /* background-color: coral; */
+  width: 80%;
+}
+
+.inputDisplay{
+  /* background-color: orange; */
+  margin-left: 10px;;
+  width:20%;
+  border: none;
+  opacity: inherit;
+  font-size: 15px;
+}
+.slider{
+  width:80%;  
+  -webkit-appearance: none;
+  height: 13px;
+  border-radius: 6px;
+  background: #CAD5E2;
+  color: #4CAF50;
+  border-color: blue; 
+}
+
+/* .slider::webkit-slider-thumb{
+  background-color: #4CAF50;
+  color: green;
+} */
+
+
+@media screen and (max-width: 769px) {
+  .annualCompoundCalculator{   
+    flex-direction: column;
+  }
+  .left-child{ 
+    margin:20px;
+    flex:100;
+  }
+  
+  .right-child{  
+    flex:100;
+  }
+  .formContainer{   
+    align-items: center; 
+  }
+  .inputDisplay{ 
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .annualCompoundCalculator{   
+    flex-direction: column;
+  }
+  .left-child{  
+    flex:100;
+  }
+  .formContainer{   
+    align-items: center; 
+  } 
+  .right-child{  
+    flex:100;
+  }  
+  .inputDisplay{ 
+    font-size: 10px;
+  }
+  .Appcontainer{  
+    width: 100%; 
+  }
+}
+
+
+
+.dummy{
+  background-color: grey;
+  border: 1px;
+  border-color: black;
+  width: 100%;
+  justify-content: center;
+}
