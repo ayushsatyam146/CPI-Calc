@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/CPI-Calc/static/css/main.d2ed1f8c.chunk.css",
+    "main.js": "/CPI-Calc/static/js/main.b91bfddc.chunk.js",
+    "main.js.map": "/CPI-Calc/static/js/main.b91bfddc.chunk.js.map",
+    "runtime-main.js": "/CPI-Calc/static/js/runtime-main.5aa688e1.js",
+    "runtime-main.js.map": "/CPI-Calc/static/js/runtime-main.5aa688e1.js.map",
+    "static/js/2.dcb2f946.chunk.js": "/CPI-Calc/static/js/2.dcb2f946.chunk.js",
+    "static/js/2.dcb2f946.chunk.js.map": "/CPI-Calc/static/js/2.dcb2f946.chunk.js.map",
+    "index.html": "/CPI-Calc/index.html",
+    "static/css/main.d2ed1f8c.chunk.css.map": "/CPI-Calc/static/css/main.d2ed1f8c.chunk.css.map",
+    "static/js/2.dcb2f946.chunk.js.LICENSE.txt": "/CPI-Calc/static/js/2.dcb2f946.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/CPI-Calc/static/media/orange-texture.8d2c625b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5aa688e1.js",
+    "static/js/2.dcb2f946.chunk.js",
+    "static/css/main.d2ed1f8c.chunk.css",
+    "static/js/main.b91bfddc.chunk.js"
+  ]
+}
