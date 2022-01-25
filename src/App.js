@@ -1,5 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'; 
 
 import VariableForm from './VariableForm';
 import CompoundInterestChart from './CompoundInterestChart'; 

@@ -18,7 +18,7 @@ function VariablesForm({ onUpdate }) {
       <h2>Financials</h2>
       <div className="formContainer">
         <label className="inputBox" htmlFor="initialAmount">
-          Initial Amount(&pound;) 
+          Initial Amount(Rs.) 
           <br/> <br/> 
           <div class="inputFlex">
             <input
